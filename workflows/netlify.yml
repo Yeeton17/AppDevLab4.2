@@ -2,7 +2,7 @@ name: Build and Deploy to Netlify
 on:
   push:
     branches:
-      - main  # Change this to 'master' if your default branch uses that name
+      - main
 
 jobs:
   deploy:
